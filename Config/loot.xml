@@ -1,0 +1,27 @@
+<configs>
+
+	<!-- ============================================================ -->
+	<!-- Player-craftable storage crates                              -->
+	<!-- Sized to never shrink below what TMO_Mega_Backpack_Storage   -->
+	<!-- had live (100/120/140), so no items are orphaned on the save -->
+	<!-- vanilla: wood 8,6=48  iron 8,8=64  steel 8,10=80             -->
+	<!-- ============================================================ -->
+
+	<set xpath="/lootcontainers/lootcontainer[@name='playerWoodWritableStorage']/@size">10,10</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerIronWritableStorage']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerSteelWritableStorage']/@size">12,12</set>
+
+	<!-- ============================================================ -->
+	<!-- Vehicle storage                                              -->
+	<!-- vanilla: bicycle 10  minibike 30  motorcycle 40  4x4 90      -->
+	<!--          gyro 50  drone 16                                   -->
+	<!-- ============================================================ -->
+
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,8</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='roboticDrone']/@size">8,6</set>
+
+</configs>
