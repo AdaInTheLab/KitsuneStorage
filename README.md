@@ -1,6 +1,6 @@
 # KitsuneStorage
 
-Bigger storage everywhere, for 7 Days to Die V3.0.x.
+Bigger storage everywhere, for 7 Days to Die V3.0 to V3.3.
 
 | Container | Vanilla | KitsuneStorage |
 |---|---|---|

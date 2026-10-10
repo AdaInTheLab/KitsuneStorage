@@ -2,7 +2,9 @@
 
 	<!-- The loot window's slot pool must cover the biggest container it can display. -->
 	<!-- Vanilla is 10x9 = 90 cells; the 12x12 steel crate needs 144, so 16x12 = 192. -->
-	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">16</set>
-	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">12</set>
+	<!-- V3.3 moved the grid inside a scrollview (content/scrollview/grid), so the path -->
+	<!-- uses // to match the grid at either depth and keep working on V3.0 to V3.3. -->
+	<set xpath="/windows/window[@name='windowLooting']//grid[@name='queue']/@rows">16</set>
+	<set xpath="/windows/window[@name='windowLooting']//grid[@name='queue']/@cols">12</set>
 
 </configs>
