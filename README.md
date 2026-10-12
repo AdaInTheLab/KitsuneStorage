@@ -14,7 +14,7 @@ Bigger storage everywhere, for 7 Days to Die V3.0 to V3.3.
 | Gyrocopter | 50 | 90 |
 | Robotic Drone | 16 | 48 |
 
-Also enlarges the loot window slot pool so the biggest containers display correctly.
+Also enlarges the loot window slot pool so the biggest containers display correctly. It only ever raises the pool, so it never shrinks the bigger one KitsuneBackpack200 sets for its death bag.
 
 Pure XML modlet (XPath patches only), no DLLs.
 
