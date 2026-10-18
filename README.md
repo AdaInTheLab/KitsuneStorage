@@ -27,3 +27,7 @@ Drop the `KitsuneStorage` folder into your `Mods` folder. Needed on **both serve
 - Growing containers is safe on existing saves. Shrinking (removing the mod) can orphan items in slots beyond the smaller size.
 - If you run RW SimpleUI with Gears, leave its "Drone Storage Size" setting on Vanilla or it will override the drone size here.
 - Part of the Kitsune QoL family: [KitsuneMoreSloots](https://github.com/AdaInTheLab/KitsuneMoreSloots), [KitsuneBackpack](https://github.com/AdaInTheLab/KitsuneBackpack).
+
+## License
+
+[CC BY-NC-SA 4.0](LICENSE), with an extra permission for servers that make money: see [NOTICE.md](NOTICE.md). In short: play it, change it and share it, with credit, not for sale, and with changed versions under the same license.
